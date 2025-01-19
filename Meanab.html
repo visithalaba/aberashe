@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+              background: rgba(0, 0, 0, 0.8);
+      
+      padding: 0px;
+        color: white;
+            margin: 15px;
+         height: 180px;   
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    .logo{
+      width: 110px;
+      height: 110px;
+    
+}
+      
+
+        header h2 {
+        margin:0px auto;
+        }
+   header h3{
+      flex: 1 1 30%;
+      padding: 6px;
+      margin:0px 5px;
+      width: 150px;
+      font-weight: 900;
+      border-bottom:4px solid #f39c12;
+      color: #f39c12;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+ 
+
+
+        .menu-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+
+        .menu-category {
+            margin-bottom: 30px;
+        }
+
+        .category-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 5px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+.menu-item img{
+  width:80px;
+  height:80px;
+  margin:0px 5px;
+  border-radius:5px;
+}
+        .menu-item:hover {
+            box-shadow
+        }
+
+        .menu-item h4 {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .menu-item p {
+            margin: 0;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .menu-item .price {
+            font-size: 1.1rem;
+            font-weight: bold;
+                  color: #f39c12;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                margin:0px;
+                padding: 0px;
+            }
+
+            header h1 {
+                margin:0px;
+            }
+
+            .menu-item {
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: start;
+         width:280px;
+         margin:10px;
+         
+            }
+
+            .menu-item .price {
+                margin-top: 5px;
+                align-self: flex-end;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img  class="logo" src="logo.png" alt="Hotel Logo">
+        <h2>Aberash Hotel</h2>
+        <h3> Menu</h3>
+    </header>
+
+    <div class="menu-contaitner">
+      
+      
+      
+        <!-- Breakfast Section -->
+        <div class="mcategory-title">
+        
+        
+        
+ <h2 class="category-title">Breakfast</h2>
+ 
+ 
+
+              
+              
+                   <div class="menu-item">
+              <div><img src="burger.jpg">
+                </div>
+                <div>
+                    <h4>Burger</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">$5.99</div>
+            </div>
+         
+         
+                         <div class="menu-item">
+              <div><img src="kitifo.jpg">
+                </div>
+                <div>
+                    <h4>kitfo</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">$5.99</div>
+            </div>   
+         
+            
+                     <div class="menu-item">
+              <div><img src="sanduch.jpg">
+                </div>
+                <div>
+                    <h4>Sanduch</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">$5.99</div>
+            </div>   
+            
+            
+       
+       
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Lunch Section -->
+        <div class="menu-category">
+            <h2 class="category-title">Lunch</h2>
+     
+                             <div class="menu-item">
+              <div><img src="dro.jpg">
+                </div>
+                <div>
+                    <h4>Doro wat</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">500 ETC</div>
+            </div>   
+                 
+            
+                                      <div class="menu-item">
+              <div><img src="tab.jpg">
+                </div>
+                <div>
+                    <h4>Beef stew</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">480 ETC</div>
+            </div>   
+            
+            
+                                   <div class="menu-item">
+              <div><img src="tibis.jpg">
+                </div>
+                <div>
+                    <h4>Tibs</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">300 ETC</div>
+            </div>        
+            
+            
+            
+            
+            
+            
+
+
+        <!-- Beverages Section -->
+
+
+        <!-- Desserts Section -->
+                <div class="menu-category">
+            <h2 class="category-title">Beverages</h2>
+
+
+        
+
+
+            
+
+      
+                                         <div class="menu-item">
+              <div><img src="soft.jpeg">
+                </div>
+                <div>
+                    <h4>Soft Drink</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">45 ETC</div>
+            </div>  
+                                               <div class="menu-item">
+              <div><img src="malta.jpeg">
+                </div>
+                <div>
+                    <h4>Malta</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">60 ETC</div>
+            </div>  
+                                             <div class="menu-item">
+              <div><img src="coffee.jpg">
+                </div>
+                <div>
+                    <h4>coffe</h4>
+                    <p>Fluffy pancakes served with syrup and butter.</p>
+                </div>
+                <div class="price">25 ETC</div>
+            </div>    
+      
+      
+      
+      
+        </div>
+    </div>
+</body>
+</html>
